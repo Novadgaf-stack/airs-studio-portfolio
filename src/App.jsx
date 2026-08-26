@@ -1,5 +1,6 @@
-Ôªøimport React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Worldwide from "./components/Worldwide";
 import {
   ArrowUpRight,
   ArrowUp,
@@ -154,7 +155,7 @@ function App() {
       <main>
 
         {/* HERO */}
-        <section className="relative flex min-h-screen items-end px-5 pb-20 pt-40 md:px-10">
+        <section className="relative flex min-h-[calc(100vh-110px)] items-center px-5 pb-16 pt-28 md:px-10 md:pt-32">
           <div className="absolute right-[-15rem] top-[-12rem] h-[40rem] w-[40rem] rounded-full bg-[#996527]/10 blur-3xl" />
 
           <div className="mx-auto grid w-full max-w-[1400px] items-end gap-14 lg:grid-cols-[1.3fr_.7fr]">
@@ -170,7 +171,7 @@ function App() {
 
                 <span className="flex items-center gap-2 rounded-full bg-[#131c48] px-4 py-2 text-xs font-medium text-[#fff8eb]">
                   <Globe2 size={13} />
-                  Based in Nigeria ¬∑ Working worldwide
+                  Based in Nigeria ∑ Working worldwide
                 </span>
               </div>
 
@@ -257,11 +258,11 @@ function App() {
           </div>
         </section>
 
-        {/* ABOUT */}
+        {/* WORLDWIDE */}       <Worldwide />       {/* ABOUT */}
         <section id="about" className="px-5 py-28 md:px-10 md:py-40">
           <div className="mx-auto grid max-w-[1400px] gap-16 lg:grid-cols-[.7fr_1.3fr]">
             <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-              01 ‚Äî About AIRS.
+              01 ó About AIRS.
             </p>
 
             <div>
@@ -302,7 +303,7 @@ function App() {
           <div className="mx-auto max-w-[1400px]">
             <div className="mb-20 grid gap-8 lg:grid-cols-[.7fr_1.3fr]">
               <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                02 ‚Äî Expertise
+                02 ó Expertise
               </p>
 
               <div>
@@ -337,7 +338,7 @@ function App() {
           <div className="mx-auto max-w-[1400px]">
             <div className="grid gap-10 lg:grid-cols-[.7fr_1.3fr]">
               <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                03 ‚Äî The process
+                03 ó The process
               </p>
 
               <div>
@@ -371,7 +372,7 @@ function App() {
           <div className="mx-auto max-w-[1400px]">
             <div className="mb-16 grid gap-8 md:grid-cols-[.7fr_1.3fr]">
               <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                04 ‚Äî Selected work
+                04 ó Selected work
               </p>
 
               <div>
@@ -430,11 +431,11 @@ function App() {
             <div className="grid gap-10 lg:grid-cols-[.7fr_1.3fr]">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                  05 ‚Äî Testimonials
+                  05 ó Testimonials
                 </p>
                 <p className="mt-6 max-w-xs text-sm leading-relaxed text-[#131c48]/50">
                   Real words from real clients will live here. No manufactured
-                  reviews ‚Äî only genuine experiences.
+                  reviews ó only genuine experiences.
                 </p>
               </div>
 
@@ -453,7 +454,7 @@ function App() {
                       className="flex min-h-[280px] flex-col justify-between rounded-3xl border border-[#131c48]/10 bg-white p-7"
                     >
                       <div>
-                        <span className="font-display text-5xl text-[#996527]/40">‚Äú</span>
+                        <span className="font-display text-5xl text-[#996527]/40">ì</span>
                         <p className="mt-2 text-lg leading-relaxed text-[#131c48]/55">
                           {item.quote}
                         </p>
@@ -483,10 +484,10 @@ function App() {
             </p>
 
             <blockquote className="font-display text-4xl font-medium leading-[1.05] tracking-[-.055em] md:text-7xl">
-              ‚ÄúInstead of following trends, I focus on building
+              ìInstead of following trends, I focus on building
               <span className="text-[#996527]"> strong identity</span> for
-              the brand ‚Äî and I create for the
-              <span className="text-[#996527]"> target audience.</span>‚Äù
+              the brand ó and I create for the
+              <span className="text-[#996527]"> target audience.</span>î
             </blockquote>
           </div>
         </section>
@@ -495,7 +496,7 @@ function App() {
         <section className="px-5 py-28 md:px-10 md:py-40">
           <div className="mx-auto grid max-w-[1400px] gap-12 lg:grid-cols-[.7fr_1.3fr]">
             <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-              06 ‚Äî FAQ
+              06 ó FAQ
             </p>
 
             <div>
@@ -544,7 +545,7 @@ function App() {
         <section id="contact" className="rounded-t-[3rem] bg-[#131c48] px-5 py-28 text-[#fff8eb] md:px-10 md:py-40">
           <div className="mx-auto max-w-[1400px]">
             <p className="mb-10 text-xs font-semibold uppercase tracking-[.3em] text-[#996527]">
-              07 ‚Äî Let's work
+              07 ó Let's work
             </p>
 
             <div className="grid gap-16 lg:grid-cols-[1.4fr_.6fr]">
@@ -580,7 +581,7 @@ function App() {
 
               <div className="flex flex-col justify-end lg:items-end">
                 <p className="max-w-xs text-lg leading-relaxed text-[#fff8eb]/50 lg:text-right">
-                  From Nigeria to anywhere in the world ‚Äî let's create
+                  From Nigeria to anywhere in the world ó let's create
                   something clear, distinctive and worth remembering.
                 </p>
 
@@ -613,7 +614,7 @@ function App() {
                   WhatsApp
                 </a>
               </div>
-              <span>¬© {new Date().getFullYear()} AIRS.</span>
+              <span>© {new Date().getFullYear()} AIRS.</span>
             </div>
           </div>
         </section>
@@ -653,3 +654,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
