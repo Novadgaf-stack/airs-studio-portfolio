@@ -1,4 +1,4 @@
-Ôªøimport React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Worldwide from "./components/Worldwide";
 import {
@@ -171,7 +171,7 @@ function App() {
 
                 <span className="flex items-center gap-2 rounded-full bg-[#131c48] px-4 py-2 text-xs font-medium text-[#fff8eb]">
                   <Globe2 size={13} />
-                  Based in Nigeria ¬∑ Working worldwide
+                  Based in Nigeria ∑ Working worldwide
                 </span>
               </div>
 
@@ -219,9 +219,9 @@ function App() {
 
         {/* STATS */}
         <section className="border-y border-[#131c48]/10 bg-white px-5 py-10 md:px-10">
-          <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-y-10 md:grid-cols-4">
+          <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-y-10 md:grid-cols-2 md:grid-cols-4">
             <div className="border-[#131c48]/10 md:border-r">
-              <p className="font-display text-5xl font-semibold tracking-[-.05em] md:text-6xl">
+              <p className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold tracking-[-.05em] md:text-4xl sm:text-4xl sm:text-5xl md:text-6xl md:text-6xl">
                 <Counter value={100} suffix="+" />
               </p>
               <p className="mt-2 text-xs font-semibold uppercase tracking-[.2em] text-[#131c48]/45">
@@ -230,7 +230,7 @@ function App() {
             </div>
 
             <div className="md:border-r md:pl-8">
-              <p className="font-display text-5xl font-semibold tracking-[-.05em] md:text-6xl">
+              <p className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold tracking-[-.05em] md:text-4xl sm:text-4xl sm:text-5xl md:text-6xl md:text-6xl">
                 <Counter value={50} suffix="+" />
               </p>
               <p className="mt-2 text-xs font-semibold uppercase tracking-[.2em] text-[#131c48]/45">
@@ -239,7 +239,7 @@ function App() {
             </div>
 
             <div className="border-[#131c48]/10 md:border-r md:pl-8">
-              <p className="font-display text-5xl font-semibold tracking-[-.05em] md:text-6xl">
+              <p className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold tracking-[-.05em] md:text-4xl sm:text-4xl sm:text-5xl md:text-6xl md:text-6xl">
                 <Counter value={4} suffix="+" />
               </p>
               <p className="mt-2 text-xs font-semibold uppercase tracking-[.2em] text-[#131c48]/45">
@@ -248,7 +248,7 @@ function App() {
             </div>
 
             <div className="md:pl-8">
-              <p className="font-display text-5xl font-semibold tracking-[-.05em] md:text-6xl">
+              <p className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold tracking-[-.05em] md:text-4xl sm:text-4xl sm:text-5xl md:text-6xl md:text-6xl">
                 Worldwide
               </p>
               <p className="mt-2 text-xs font-semibold uppercase tracking-[.2em] text-[#131c48]/45">
@@ -262,11 +262,11 @@ function App() {
         <section id="about" className="px-5 py-28 md:px-10 md:py-40">
           <div className="mx-auto grid max-w-[1400px] gap-16 lg:grid-cols-[.7fr_1.3fr]">
             <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-              01 ‚Äî About AIRS.
+              01 ó About AIRS.
             </p>
 
             <div>
-              <h2 className="font-display text-4xl font-medium leading-[1.05] tracking-[-.045em] md:text-6xl">
+              <h2 className="font-display text-4xl font-medium leading-[1.05] tracking-[-.045em] md:text-4xl sm:text-4xl sm:text-5xl md:text-6xl md:text-6xl">
                 Design that makes the right message
                 <span className="text-[#996527]"> impossible to miss.</span>
               </h2>
@@ -303,11 +303,11 @@ function App() {
           <div className="mx-auto max-w-[1400px]">
             <div className="mb-20 grid gap-8 lg:grid-cols-[.7fr_1.3fr]">
               <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                02 ‚Äî Expertise
+                02 ó Expertise
               </p>
 
               <div>
-                <h2 className="font-display text-5xl font-medium tracking-[-.05em] md:text-7xl">
+                <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-[-.05em] md:text-7xl">
                   What I <span className="italic text-[#996527]">do.</span>
                 </h2>
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-[#fff8eb]/55">
@@ -338,11 +338,11 @@ function App() {
           <div className="mx-auto max-w-[1400px]">
             <div className="grid gap-10 lg:grid-cols-[.7fr_1.3fr]">
               <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                03 ‚Äî The process
+                03 ó The process
               </p>
 
               <div>
-                <h2 className="font-display text-5xl font-medium tracking-[-.05em] md:text-7xl">
+                <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-[-.05em] md:text-7xl">
                   From idea to
                   <br />
                   <span className="italic text-[#996527]">identity.</span>
@@ -372,11 +372,11 @@ function App() {
           <div className="mx-auto max-w-[1400px]">
             <div className="mb-16 grid gap-8 md:grid-cols-[.7fr_1.3fr]">
               <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                04 ‚Äî Selected work
+                04 ó Selected work
               </p>
 
               <div>
-                <h2 className="font-display text-5xl font-medium tracking-[-.05em] md:text-7xl">
+                <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-[-.05em] md:text-7xl">
                   Work worth
                   <br />
                   <span className="italic text-[#996527]">remembering.</span>
@@ -431,16 +431,16 @@ function App() {
             <div className="grid gap-10 lg:grid-cols-[.7fr_1.3fr]">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-                  05 ‚Äî Testimonials
+                  05 ó Testimonials
                 </p>
                 <p className="mt-6 max-w-xs text-sm leading-relaxed text-[#131c48]/50">
                   Real words from real clients will live here. No manufactured
-                  reviews ‚Äî only genuine experiences.
+                  reviews ó only genuine experiences.
                 </p>
               </div>
 
               <div>
-                <h2 className="font-display text-5xl font-medium tracking-[-.05em] md:text-7xl">
+                <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-[-.05em] md:text-7xl">
                   Good work gets
                   <br />
                   <span className="italic text-[#996527]">remembered.</span>
@@ -454,7 +454,7 @@ function App() {
                       className="flex min-h-[280px] flex-col justify-between rounded-3xl border border-[#131c48]/10 bg-white p-7"
                     >
                       <div>
-                        <span className="font-display text-5xl text-[#996527]/40">‚Äú</span>
+                        <span className="font-display text-4xl sm:text-5xl md:text-6xl text-[#996527]/40">ì</span>
                         <p className="mt-2 text-lg leading-relaxed text-[#131c48]/55">
                           {item.quote}
                         </p>
@@ -484,10 +484,10 @@ function App() {
             </p>
 
             <blockquote className="font-display text-4xl font-medium leading-[1.05] tracking-[-.055em] md:text-7xl">
-              ‚ÄúInstead of following trends, I focus on building
+              ìInstead of following trends, I focus on building
               <span className="text-[#996527]"> strong identity</span> for
-              the brand ‚Äî and I create for the
-              <span className="text-[#996527]"> target audience.</span>‚Äù
+              the brand ó and I create for the
+              <span className="text-[#996527]"> target audience.</span>î
             </blockquote>
           </div>
         </section>
@@ -496,11 +496,11 @@ function App() {
         <section className="px-5 py-28 md:px-10 md:py-40">
           <div className="mx-auto grid max-w-[1400px] gap-12 lg:grid-cols-[.7fr_1.3fr]">
             <p className="text-xs font-semibold uppercase tracking-[.25em] text-[#996527]">
-              06 ‚Äî FAQ
+              06 ó FAQ
             </p>
 
             <div>
-              <h2 className="font-display text-5xl font-medium tracking-[-.05em] md:text-7xl">
+              <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-medium tracking-[-.05em] md:text-7xl">
                 Before we
                 <br />
                 <span className="italic text-[#996527]">start.</span>
@@ -545,12 +545,12 @@ function App() {
         <section id="contact" className="rounded-t-[3rem] bg-[#131c48] px-5 py-28 text-[#fff8eb] md:px-10 md:py-40">
           <div className="mx-auto max-w-[1400px]">
             <p className="mb-10 text-xs font-semibold uppercase tracking-[.3em] text-[#996527]">
-              07 ‚Äî Let's work
+              07 ó Let's work
             </p>
 
             <div className="grid gap-16 lg:grid-cols-[1.4fr_.6fr]">
               <div>
-                <h2 className="max-w-5xl font-display text-6xl font-medium leading-[.88] tracking-[-.065em] md:text-8xl">
+                <h2 className="max-w-5xl font-display text-4xl sm:text-4xl sm:text-5xl md:text-6xl md:text-6xl font-medium leading-[.88] tracking-[-.065em] md:text-8xl">
                   Have a brand
                   <br />
                   worth <span className="italic text-[#996527]">talking</span>
@@ -581,7 +581,7 @@ function App() {
 
               <div className="flex flex-col justify-end lg:items-end">
                 <p className="max-w-xs text-lg leading-relaxed text-[#fff8eb]/50 lg:text-right">
-                  From Nigeria to anywhere in the world ‚Äî let's create
+                  From Nigeria to anywhere in the world ó let's create
                   something clear, distinctive and worth remembering.
                 </p>
 
@@ -614,7 +614,7 @@ function App() {
                   WhatsApp
                 </a>
               </div>
-              <span>¬© {new Date().getFullYear()} AIRS.</span>
+              <span>© {new Date().getFullYear()} AIRS.</span>
             </div>
           </div>
         </section>
@@ -654,6 +654,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
